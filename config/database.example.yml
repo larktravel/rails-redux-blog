@@ -1,0 +1,31 @@
+development:
+  adapter:  postgresql
+  host:     localhost
+  port:     5432
+  encoding: unicode
+  database: rails_redux_blog_development
+  pool:     1000
+  username: [USERNAME]
+  password:
+  template: template0
+
+test:
+  adapter:  postgresql
+  host:     localhost
+  port:     5432
+  encoding: unicode
+  database: rails_redux_blog_test
+  pool:     1000
+  username: [USERNAME]
+  password:
+  template: template0
+
+production:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: rails_redux_blog_production
+  pool:     50
+  username: [USERNAME]
+  password:
+  template: template0
